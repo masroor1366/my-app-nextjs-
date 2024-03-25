@@ -7,7 +7,7 @@ import Navbar from "./layuots/Navbar/Navbar"
 import "@/public/assets/css/bootstrap.min.css"
 import "@/public/assets/fontawesome/css/all.css"
 import "@/public/assets/css/style.css"
-
+  
 
  
  
@@ -20,11 +20,15 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+ 
   return (
-    <>
-    <Navbar/>
-    <Sidebar/>
-  
-     </>
+    
+    <div>
+      <Navbar />
+      <Sidebar />
+      <section id="content_section" 
+      className={`bg-light py-2 px-3   "with_sidebar"  }`}></section>
+    </div>
+   
    );
 }
