@@ -37,11 +37,12 @@ export default function Home() {
                   <div className="user-image" >
                   
                   
-              
-
+                  <img src="./user2.jpg"   
+                   width={150}
+                  height={160} />
+                  
              
-                    <img src="./assets/images/user2.jpg"  />
-              
+                   
                
                
                    </div>
@@ -65,7 +66,7 @@ export default function Home() {
                   <i className="fa fa-mobile-alt"></i>
               </span>
               <span>موبایل:</span>
-                                         <span dir="ltr">(+۹۸)9120270308</span>
+                                         <span dir="ltr">(+98)9120270308</span>
    </div>
           <div className="contact-item contact__city">
               <span>
@@ -85,7 +86,7 @@ export default function Home() {
 
           <div className="basic__military">
               <span>وضعیت سربازی:</span>
-              <span>دارای کارت پایان خدمت</span>
+              <span>پایان خدمت</span>
           </div>
   
 </div>
