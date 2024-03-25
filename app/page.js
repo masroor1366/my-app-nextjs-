@@ -7,21 +7,44 @@ import "./css/Fonts.css";
 import "./css/credit-header.css";
 import "./css/DefaultResume-RTL.css";
 import "./css/Template37-RTL.css";
+
+
  
 
  
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+     
+
+
+
+    
+   
+
+ 
+
+
+
       
-      
+       
+
       <div className="container"  >
        
       <div className="contact-info">
            <div className="contact-head">
                <div className="name-job-desc">
-                  <div className="user-image"  ></div>
+                  <div className="user-image" >
+                  
+                  
+              
+
+             
+                    <img src="./assets/images/user2.jpg"  />
+              
+               
+               
+                   </div>
                    <h1>محمدعلی مسرور</h1>
                   <div className="infoo info" data-section="Contact">
   <div className="infoo-head">
@@ -716,9 +739,9 @@ export default function Home() {
 
   </div>
 
+   
 
-
-      </div>
+      
     </main>
   );
 }
