@@ -1,5 +1,5 @@
 import Image from 'react-bootstrap/Image';
-import styles from "../page.module.css";
+ 
 
 
 // import "@/public/assets/cssResume/all.min.css";
@@ -16,12 +16,11 @@ import "@/public/assets/cssResume/Template37-RTL.css";
 export default function Home() {
   return (
 
-
-    
+     
       
        
 
-      <div className="container"  >
+      <div id="content_section"  className={`bg-light py-2 px-3  `}  >
        
       <div className="contact-info">
            <div className="contact-head">

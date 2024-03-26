@@ -1,19 +1,22 @@
-import Image from 'react-bootstrap/Image';
-import styles from "./page.module.css";
-import NavbarL from './layuots/Navbar/Navbar'; 
+ 
+ 
 
-// import "./css/all.min.css";
+
+
+import Dashboard from "./dashboard/Dashboard";
+
  
 
  
 export default function Home() {
   return (
-     
-   <>
+    
    
-   
-   </>
-
+   <section id="content_section" 
+    
+   className={`bg-light py-2 px-3  `}>
+     <Dashboard/>
+   </section>
      
   );
 }

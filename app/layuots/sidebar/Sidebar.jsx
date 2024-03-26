@@ -46,9 +46,9 @@ const Navbar = () => {
         <SidebarItem icon="fas fa-user-tag" title="نقش ها"/>
         <SidebarItem icon="fas fa-shield-alt" title="مجوز ها"/>
 
-        <SidebarGroupTitle title="ارتباطات"/>
-        <SidebarItem icon="fas fa-question-circle" title="سوال ها"/>
-        <SidebarItem icon="fas fa-comment" title="نظرات"/>
+        <SidebarGroupTitle title={"ارتباطات"}/>
+        <SidebarItem item={"سوال ها"}/>
+        <SidebarItem item={"نظرات "}/>
        
         
        
