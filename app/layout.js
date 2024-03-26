@@ -1,5 +1,7 @@
-import Navbar from "./layuots/Navbar/Navbar"
-import Sidebar from "./layuots/sidebar/sidebar"
+ 
+import Sidebar from "./assets/layuots/sidebar/sidebar"
+import Navbar from "./assets/layuots/Navbar/Navbar"
+ 
 
 import '@/public/assets/css/bootstrap.min.css'
 import '@/public/assets/fontawesome/css/all.css'
