@@ -2,7 +2,7 @@ import Image from 'react-bootstrap/Image';
 import styles from "../page.module.css";
 
 
-// import "./css/all.min.css";
+import "@/public/assets/cssResume/all.min.css";
 import "@/public/assets/cssResume/Fonts.css";
 import "@/public/assets/cssResume/credit-header.css";
 import "@/public/assets/cssResume/DefaultResume-RTL.css";
