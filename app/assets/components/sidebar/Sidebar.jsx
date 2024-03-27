@@ -5,15 +5,16 @@ import SidebarItem from "./SidebarItem";
 
 const Navbar = () => {
   return (
-    <section id="sidebar_section">
+    <dev id="sidebar_section">
 
-    <meta charset="utf-8" />
+{  /*  <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   
     
     <title>پنل ادمین</title>
-
+    */
+}
      
  
 
@@ -58,7 +59,7 @@ const Navbar = () => {
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/chart.js"></script>
     <script src="/assets/js/main.js"></script>
-  </section>
+  </dev>
   );
 };
 

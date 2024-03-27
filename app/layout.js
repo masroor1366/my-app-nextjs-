@@ -1,11 +1,12 @@
  
-import Sidebar from "./assets/layuots/sidebar/sidebar"
-import Navbar from "./assets/layuots/Navbar/Navbar"
+import Sidebar from "./assets/components/sidebar/sidebar"
+import Navbar from "./assets/components/Navbar/Navbar"
  
 
 import '@/public/assets/css/bootstrap.min.css'
 import '@/public/assets/fontawesome/css/all.css'
 import '@/public/assets/css/style.css'
+import AdminContextContainer from "./assets/context/adminLayoutContext"
 
  
 export const metadata = {
@@ -17,13 +18,17 @@ export default function RootLayout({ children }) {
  return (
   
     <html lang="en">
-    <body> 
     
     
+     
     {children}
+   
     <Sidebar/>
     <Navbar/>
-    </body>
+     
+   
+     
+     
   </html>
     
     

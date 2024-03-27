@@ -12,11 +12,11 @@ export default function Home() {
   return (
     
    
-   <section id="content_section" 
+   <dev id="content_section" 
     
    className={`bg-light py-2 px-3  `}>
      <Dashboard/>
-   </section>
+   </dev>
      
   );
 }

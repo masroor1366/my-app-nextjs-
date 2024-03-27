@@ -25,7 +25,7 @@ body {
 }
 
 div.user-image {
-    background-image: url(/content/pic/download.jpg);
+    /* background-image: url(/content/pic/download.jpg); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
