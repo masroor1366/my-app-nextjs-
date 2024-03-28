@@ -7,7 +7,7 @@ import "@/public/assets/cssResume/Fonts.css";
 import "@/public/assets/cssResume/credit-header.css";
 import "@/public/assets/cssResume/DefaultResume-RTL.css";
 import "@/public/assets/cssResume/Template37-RTL.css";
-import Avatar from '../assets/components/sidebar/Avatar';
+import Avatar from '@/public/assets/components/sidebar/Avatar';
  
 
 

@@ -1,13 +1,12 @@
  
-import Sidebar from "./assets/components/sidebar/sidebar"
-import Navbar from "./assets/components/Navbar/Navbar"
+import Sidebar from "@/public/assets/components/sidebar/sidebar"
+import Navbar from "@/public/assets/components/Navbar/Navbar"
  
 
 import '@/public/assets/css/bootstrap.min.css'
 import '@/public/assets/fontawesome/css/all.css'
 import '@/public/assets/css/style.css'
-import AdminContextContainer from "./assets/context/adminLayoutContext"
-
+ 
  
 export const metadata = {
   title: 'Next.js',
@@ -19,16 +18,14 @@ export default function RootLayout({ children }) {
   
     <html lang="en">
     
-    
+    <body>
      
-    {children}
+    
    
     <Sidebar/>
     <Navbar/>
-     
-   
-     
-     
+    {children}
+    </body>
   </html>
     
     
